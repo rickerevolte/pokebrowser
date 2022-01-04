@@ -234,19 +234,3 @@ function filterByName(dataArray, searchTerm) {
     });
     return filteredResult;
 }
-
-// HOMEWORK
-// use the pokemon API to read a list of names of POKEMON
-// print the list in the left box
-// when clicking details show the details on the right box
-// including at least 1 image
-// 
-// Default is filtered to 20
-// https://pokeapi.co/api/v2/pokemon/
-//
-// List of all pokemon
-// https://pokeapi.co/api/v2/pokemon/?limit=1118
-//
-// Example of a detail URL
-// https://pokeapi.co/api/v2/pokemon/1/
-//
