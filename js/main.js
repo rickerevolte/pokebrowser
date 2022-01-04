@@ -234,3 +234,4 @@ function filterByName(dataArray, searchTerm) {
     });
     return filteredResult;
 }
+// it's working. Allthough it could be much smaller :)
