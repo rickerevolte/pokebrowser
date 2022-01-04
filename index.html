@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokebrowser</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2880px-International_Pok%C3%A9mon_logo.svg.png" 
+        id="logoButton" alt="Pokémon" height="70">
+        <h1>info</h1>
+        <nav class="topMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div id="sortBox">
+        <label>
+            Sort by:
+            <select id="selectSort" class="button0">
+                <option value="nameAsc">Name ASC</option>
+                <option value="nameDesc">Name DESC</option>
+            </select>
+        </label>
+        <label>
+            Filter by:
+            <input id="inputFilter" class= "button0" type="text" placeholder="name">
+        </label>
+    </div>
+    <div id="positionBox">
+        
+        Position:
+        <div id="listPosition">01-20</div> 
+            Next:
+        <label>
+        <button id ="nextButton" class="button0">+ 20</button>
+        </label>
+            Previous:
+        <label>
+        <button id ="prevButton" class="button0">- 20</button>
+        </label>
+        <div id = "commentBox" class="button0"></div>
+    </div>
+    <div id="listContent" class="contentBox">Loading...</div>
+    <div id="detailContent" class="contentBox">
+       
+    </div>
+    <div id="spriteContent" class="contentBox">Sprites</div>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
